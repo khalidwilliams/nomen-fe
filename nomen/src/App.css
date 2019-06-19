@@ -1,0 +1,28 @@
+.App {
+    background-color: #FFB997;
+    height: 100vh;
+}
+
+header {
+  color: #843B62;
+  font-size: 2em;
+}
+
+.name-choice-container {
+  display: flex;
+  justify-content: space-between  ;
+}
+
+.name-choice-container > * {
+  flex: 1;
+  text-align: center;
+  border: solid 2px #0B032D;
+  border-radius: 1em;
+  margin: .5em;
+}
+
+.student-picture {
+  border: solid 2px #0B032D;
+  height: 3em;
+  margin: 10% 20% 0 20%;
+}
